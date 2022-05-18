@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import mypic from '../public/img/background.jpg'
+import mypic from '../public/img/Background.jpg'
 const MyImage = (props) => {
   return (
     <Image
