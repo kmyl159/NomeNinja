@@ -1,4 +1,5 @@
 import Form from '../Components/form'
+import MyImage from '../Components/image'
 import {
   Background,
 } from '../styles/home'
@@ -9,9 +10,8 @@ const Home = ()=>{
   return(
     <>
       <GlobalCSS />
-      <Background>
-          <Form />
-      </Background>
+      <Form />
+      <MyImage />
     </>
   )
 }
